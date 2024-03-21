@@ -1,0 +1,136 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "purchase",
+      "patterns": [
+        "How can I buy?",
+        "Where can I buy?",
+        "I want to buy",
+        "Can I have your store link",
+        "Shop",
+        "Purchase",
+        "Where can I purchase your items",
+        "Buy your goods"
+      ],
+      "responses": [
+        "You can place your orders at www.dummysite.com/store",
+        "You can check out our items at www.dummysite.com/store",
+        "Visit www.dummysite.com/store to view our items"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What services do you offer?",
+        "What can I buy from your store",
+        "What options do you have?"
+      ],
+      "responses": [
+        "We sell a variety of clothing items and accessories. \nWe also rent out clothes for special occassions such as parties and other social occassions.",
+        "We provide dresses and suits for rent. You can also buy new clothes from our store at www.dummysite.com/store"
+      ]
+    },
+    {
+      "tag": "prices",
+      "patterns": [
+        "What is the cost of your items?",
+        "How much do I have to pay?",
+        "How much is it?",
+        "Are they cheap?",
+        "Are they expensive?",
+        "Cheap",
+        "Expensive"
+      ],
+      "responses": [
+        "We sell a variety of items here, ranging from prices of Rs 200 to Rs 200000.\nYou fill find great quality at any price range.",
+        "Prices range from Rs 200 to Rs 200000. But quality is non-negotiable at any range."
+      ]
+    },
+    {
+      "tag": "complaints",
+      "patterns": [
+        "I have a complaint",
+        "There is something wrong", 
+        "I have a problem",
+        "There is a problem",
+        "I need to complain about something"
+      ],
+      "responses": [
+        "I am sorry about that. Please leave details at www.dummysite.com/complain",
+        "Please leave your complaint at www.dummysite.com/complain, and we will fix your issue ASAP"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "What payment methods do you have?",
+        "How do I pay?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "I once beat a human at chess. But I was no match for him at kickboxing."
+      ]
+    }
+  ]
+}
